@@ -915,7 +915,7 @@ the website, in dark theme
     padding: 0 4rem;
   }
   .project__container{
-    grid-template-columns: repeat(2, 170px);
+    grid-template-columns: repeat(2, 2fr);
     justify-content: center;
     column-gap: 5rem;
   }
