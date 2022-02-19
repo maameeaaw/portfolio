@@ -561,7 +561,7 @@ the website, in dark theme
 
 .project__container{
   padding: 3rem 0;
-  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
   gap: 2.5rem 3rem;
 }
 
