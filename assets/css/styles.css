@@ -42,6 +42,14 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
+  /*========== Margenes Top ==========*/
+  --mt-0-5: .5rem;
+  --mt-0-75: .75rem;
+  --mt-1: 1rem;
+  --mt-1-5: 1.5rem;
+  --mt-2: 2rem;
+  --mt-2-5: 2.5rem;
+
   /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
@@ -559,6 +567,23 @@ the website, in dark theme
   text-align: center;
 }
 
+.project__details{
+  text-align: left;
+  margin-top: var(--mt-0-75);
+}
+
+.project__details-description{
+  font-size: var(--smaller-font-size);
+  text-align: left;
+  display: inline-flex;
+  column-gap: .5rem;
+}
+
+.project__details-icon{
+  font-size: 1rem;
+  color: #FFF;
+}
+
 .project__container{
   padding: 3rem 0;
   justify-content: center;
@@ -663,6 +688,7 @@ the website, in dark theme
   font-size: var(--smaller-font-size);
   margin-left: var(--mb-1-5);
   margin-bottom: var(--mb-2-5);
+  padding-right: 24px;
   color: #FFF;
 }
 
