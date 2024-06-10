@@ -17,6 +17,7 @@
   --text-color-light: hsl(152, 4%, 55%);
   --body-color: hsl(152, 0%, 100%);
   --container-color: #FFF;
+  --icon-color: hsl(152, 4%, 15%);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -126,6 +127,7 @@ body.dark-theme{
   --text-color: hsl(39, 4%, 75%);
   --body-color: hsl(0, 8%, 12%);
   --container-color: hsl(39, 8%, 16%);
+  --icon-color: #FFF;
 }
 
 /*========== Button Dark/Light ==========*/
@@ -581,7 +583,7 @@ the website, in dark theme
 
 .project__details-icon{
   font-size: 1rem;
-  color: #FFF;
+  color: var(--icon-color);
 }
 
 .project__container{
