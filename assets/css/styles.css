@@ -689,7 +689,7 @@ the website, in dark theme
   row-gap: 1rem;
   font-size: var(--smaller-font-size);
   margin-left: var(--mb-1-5);
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-0-5);
   padding-right: 24px;
   color: #FFF;
 }
